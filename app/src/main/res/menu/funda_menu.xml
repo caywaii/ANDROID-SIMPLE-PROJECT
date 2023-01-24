@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".HomeActivity">
+
+    <item
+        android:id="@+id/menuImages"
+        android:title="Images"
+        />
+    <item
+        android:id="@+id/menuCamera"
+        android:title="Camera"
+        />
+    <item
+        android:id="@+id/menuRegistration"
+        android:icon="@drawable/check"
+        android:title="Registration"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menuSMS"
+        android:icon="@drawable/ic_baseline_sms_24"
+        android:title="SMS"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menuCalculator"
+        android:icon="@drawable/calculator"
+        android:title="Calculator"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/calListener"
+                android:title="setOnClickListener()"/>
+            <item
+                android:id="@+id/calOnClick"
+                android:title="On Click()"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menuCall"
+        android:icon="@drawable/call"
+        android:title="Call"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menUrl"
+        android:title="URL" />
+    <item
+        android:id="@+id/menuOrganizer"
+        android:title="ToDoList"/>
+    <item
+        android:id="@+id/menuAbout"
+        android:title="About" />
+    <item
+        android:id="@+id/menulogOut"
+        android:title="Log Out"/>
+    <item
+        android:id="@+id/menuExit"
+        android:title="Exit" />
+
+
+
+</menu>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lightYellow"
+    tools:context=".About">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:layout_marginTop="25dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ABOUT"
+        android:textSize="75dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/darkerBrown"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Me"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:textColor="@color/deepYellow"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello, my name is Caryl Santiago from ITE201. I also serve as one of the Executive Board of NU Literates and Google Developer Student Clubs."
+        android:gravity="center"
+        android:textColor="@color/darkerBrown"
+
+        android:textStyle="normal"
+        android:textSize="18dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About the Mini Project"
+        android:textColor="@color/deepYellow"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I was at a loss when it came to doing the mini-project, but thanks to my friends who taught me about the LinearLayout, which makes designing and integrating applications simple. I am pleased to be working on this project because I consider myself to be a Full-Stack developer."
+        android:gravity="center"
+        android:textColor="@color/darkerBrown"
+        android:textStyle="normal"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/deepYellow"
+        android:text="About my Wish and Resolution"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:textSize="29dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My wish is for myself to be happy while accomplishing my goals. My new year's resolution is to love myself more and recognize my own worth. To move on from the disappointments of 2022 and achieve my goals in 2023."
+        android:gravity="center"
+        android:textColor="@color/darkerBrown"
+        android:textStyle="normal"
+        android:textSize="18dp"/>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:text="Go home"
+        android:id="@+id/btnGoHomAbout"/>
+</LinearLayout>

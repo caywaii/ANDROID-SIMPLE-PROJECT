@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Call">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TAKE A CALL!"
+            android:textStyle="bold"
+            android:textSize="60dp"
+            android:textColor="@color/darkerBrown"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ringggg!"
+            android:textStyle="italic"
+            android:textColor="@color/safron"
+            android:textSize="30dp"/>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:background="@drawable/callicon"
+         />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter a Number"
+            android:maxLength="11"
+            android:padding="15dp"
+            android:minLines="1"
+            android:background="@drawable/calltext"
+            android:id="@+id/callNumber"/>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Enter Call"
+            android:layout_marginTop="15dp"
+            android:drawableLeft="@drawable/call"
+            android:backgroundTint="@color/deepYellow"
+            android:textStyle="bold"
+            android:id="@+id/btnCall"
+            />
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Go Home"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="@color/goldenBrown"
+            android:textStyle="bold"
+            android:id="@+id/btnGoHome"
+            />
+    </LinearLayout>
+    
+</LinearLayout>

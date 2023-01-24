@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+<!--    These are my Colors-->
+    <color name="Caryl">#ECB4CF</color>
+    <color name="mainBrown">#DEA380</color>
+    <color name="secondBrown">#AA735E</color>
+    <color name="thirdBrown">#C19A6B</color>
+    <color name="darkerBrown">#38261F</color>
+    <color name="lightBrown">#FFDDCA</color>
+    <color name="callYellow">#FFC801</color>
+    <color name="backgroundText">#F4E0D4</color>
+    <color name="yellowCall">#FFF9E3</color>
+    <color name="goldenBrown">#EAC117</color>
+    <color name="deepYellow">#F6BE00</color>
+    <color name="safron">#FBB917</color>
+    <color name="calcuBrown">#BF917E</color>
+    <color name="regDisplay">#FBF4EC</color>
+    <color name="lightYellow">#FDF0D1</color>
+    <color name="lightblack">#333534</color>
+
+</resources>

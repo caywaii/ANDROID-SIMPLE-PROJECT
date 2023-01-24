@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Image">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ALBUMS"
+            android:textSize="60dp"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textColor="@color/darkerBrown"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Look at your Memories!"
+            android:textSize="20dp"
+            android:textColor="@color/lightblack"
+            android:gravity="center_horizontal"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        >
+
+        <ImageButton
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/carylappli"
+            android:id="@+id/imageBtn"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GDSC PHOTOSHOOT"
+            android:gravity="center_horizontal"
+            android:textColor="@color/lightblack"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center_horizontal"
+            android:text="No More Albums Found"
+            android:textColor="@color/lightblack"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Go Home"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="@color/deepYellow"
+            android:id="@+id/btnGoHomeAlbums"/>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
